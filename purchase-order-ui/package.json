@@ -1,6 +1,7 @@
 {
   "name": "purchase-order-ui",
   "version": "1.0.0",
+  "homepage": "https://vishwanadh-mandala.github.io/claude-code-demo",
   "description": "Purchase Order Management System - A comprehensive UI for managing purchase orders and accounts",
   "private": true,
   "dependencies": {
@@ -13,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -31,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
