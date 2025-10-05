@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/claude-code-demo/static/css/main.518021b4.css",
+    "main.js": "/claude-code-demo/static/js/main.16b6de08.js",
+    "index.html": "/claude-code-demo/index.html",
+    "main.518021b4.css.map": "/claude-code-demo/static/css/main.518021b4.css.map",
+    "main.16b6de08.js.map": "/claude-code-demo/static/js/main.16b6de08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.518021b4.css",
+    "static/js/main.16b6de08.js"
+  ]
+}
